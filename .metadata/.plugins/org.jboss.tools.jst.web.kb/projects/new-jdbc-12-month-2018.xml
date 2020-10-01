@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/home/hieupeo/.m2/repository/org/jboss/weld/servlet/weld-servlet/1.1.0.Final/weld-servlet-1.1.0.Final.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-weld-servlet-1.1.0.Final.jar/META-INF/faces-config.xml" project="fruits"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/hieupeo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.3/jackson-core-2.6.3.jar"/>
+  <path value="/home/hieupeo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.3/jackson-annotations-2.6.3.jar"/>
+  <path value="/home/hieupeo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+  <path value="/home/hieupeo/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0-rt.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0-rt.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fn.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/permittedTaglibs.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/scriptfree.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0-rt.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0-rt.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0.tld" project="fruits"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x.tld" project="fruits"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/hieupeo/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
+  <path value="/home/hieupeo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.3/jackson-databind-2.6.3.jar"/>
+  <path value="/home/hieupeo/.m2/repository/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar"/>
+  <path value="/home/hieupeo/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar"/>
+  <path value="/home/hieupeo/.m2/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar"/>
+  <path value="/home/hieupeo/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar"/>
+  <path value="/home/hieupeo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <path value="/home/hieupeo/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
+  <path value="/home/hieupeo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"/>
+  <path value="/home/hieupeo/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+  <path value="/home/hieupeo/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%2;%3;" path="%1"/>
+   <linked-resource name="%5;%6;%1;" path="%4"/>
+   <linked-resource name="%5;%6;%1;" path="%7"/>
+   <linked-resource name="%6;%1;" path="%8"/>
+   <linked-resource name="%10;" path="%9"/>
+   <linked-resource name="%10;%3;" path="%11"/>
+   <linked-resource name="%10;" path="%5"/>
+   <linked-resource name="%1;" path="%12"/>
+   <linked-resource name="%5;" path="%13"/>
+   <linked-resource name="%10;%3;" path="%6"/>
+   <linked-resource name="%6;%1;" path="%14"/>
+   <linked-resource name="%2;%3;" path="%15"/>
+   <linked-resource name="%5;" path="%16"/>
+  </core>
+  <el>
+   <linked-el length="24" name="%17" offset="2472" path="%18"/>
+   <linked-el length="15" name="%17" offset="2249" path="%19"/>
+   <linked-el length="12" name="%17" offset="2396" path="%19"/>
+   <linked-el length="12" name="%17" offset="2398" path="%18"/>
+   <linked-el length="13" name="%17" offset="2655" path="%18"/>
+   <linked-el length="37" name="%17" offset="2355" path="%18"/>
+   <linked-el length="13" name="%17" offset="2435" path="%18"/>
+   <linked-el length="14" name="%17" offset="1781" path="%19"/>
+   <linked-el length="12" name="%17" offset="1796" path="%19"/>
+   <linked-el length="24" name="%20" offset="2472" path="%18"/>
+   <linked-el length="24" name="%21" offset="751" path="%22"/>
+   <linked-el length="21" name="%21" offset="849" path="%22"/>
+   <linked-el length="20" name="%21" offset="1019" path="%22"/>
+   <linked-el length="21" name="%21" offset="940" path="%23"/>
+   <linked-el length="27" name="%24" offset="4076" path="%19"/>
+   <linked-el length="21" name="%25" offset="849" path="%22"/>
+   <linked-el length="21" name="%25" offset="940" path="%23"/>
+   <linked-el length="10" name="%26" offset="572" path="%27"/>
+   <linked-el length="22" name="%26" offset="501" path="%27"/>
+   <linked-el length="12" name="%28" offset="2396" path="%19"/>
+   <linked-el length="12" name="%28" offset="1796" path="%19"/>
+   <linked-el length="16" name="%29" offset="3077" path="%19"/>
+   <linked-el length="15" name="%30" offset="2249" path="%19"/>
+   <linked-el length="14" name="%30" offset="1781" path="%19"/>
+   <linked-el length="13" name="%31" offset="2435" path="%18"/>
+   <linked-el length="20" name="%32" offset="3569" path="%19"/>
+   <linked-el length="12" name="%33" offset="2821" path="%18"/>
+   <linked-el length="18" name="%34" offset="1047" path="%19"/>
+   <linked-el length="18" name="%34" offset="908" path="%18"/>
+   <linked-el length="30" name="%34" offset="959" path="%19"/>
+   <linked-el length="30" name="%34" offset="820" path="%18"/>
+   <linked-el length="12" name="%35" offset="2398" path="%18"/>
+   <linked-el length="13" name="%35" offset="2655" path="%18"/>
+   <linked-el length="37" name="%35" offset="2355" path="%18"/>
+   <linked-el length="22" name="%36" offset="872" path="%18"/>
+   <linked-el length="22" name="%36" offset="541" path="%27"/>
+   <linked-el length="22" name="%36" offset="1011" path="%19"/>
+   <linked-el length="21" name="%37" offset="2270" path="%18"/>
+   <linked-el length="16" name="%38" offset="4618" path="%19"/>
+   <linked-el length="14" name="%39" offset="5560" path="%19"/>
+   <linked-el length="23" name="%39" offset="4944" path="%19"/>
+   <linked-el length="19" name="%39" offset="5215" path="%19"/>
+   <linked-el length="16" name="%40" offset="4618" path="%19"/>
+   <linked-el length="14" name="%40" offset="5560" path="%19"/>
+   <linked-el length="27" name="%40" offset="4076" path="%19"/>
+   <linked-el length="21" name="%40" offset="2270" path="%18"/>
+   <linked-el length="20" name="%40" offset="3569" path="%19"/>
+   <linked-el length="23" name="%40" offset="4944" path="%19"/>
+   <linked-el length="19" name="%40" offset="5215" path="%19"/>
+   <linked-el length="29" name="%40" offset="1510" path="%19"/>
+   <linked-el length="33" name="%40" offset="1974" path="%19"/>
+   <linked-el length="16" name="%40" offset="3077" path="%19"/>
+   <linked-el length="15" name="%41" offset="2170" path="%19"/>
+   <linked-el length="15" name="%41" offset="1702" path="%19"/>
+   <linked-el length="29" name="%42" offset="1510" path="%19"/>
+   <linked-el length="33" name="%42" offset="1974" path="%19"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/IUserDAO.java" value="%13"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/service/impl/CategoryService.java" value="%6"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/service/IUserService.java" value="%9"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/ICategoryDAO.java" value="%14"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/webapp/views/admin/new/list.jsp" value="%18"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/impl/AbstractDAO.java" value="%7"/>
+  <alias path="USERMODEL" value="%21"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/webapp/common/admin/header.jsp" value="%23"/>
+  <alias path="model.shortDescription" value="%24"/>
+  <alias path="USERMODEL.fullName" value="%25"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/impl/NewDAO.java" value="%12"/>
+  <alias path="item.code" value="%30"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/webapp/common/web/header.jsp" value="%22"/>
+  <alias path="alert" value="%36"/>
+  <alias path="model.listResult" value="%37"/>
+  <alias path="model.content" value="%38"/>
+  <alias path="model.id" value="%39"/>
+  <alias path="model" value="%40"/>
+  <alias path="categories" value="%41"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/service/impl/NewService.java" value="%1"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/impl/UserDAO.java" value="%16"/>
+  <alias path="item" value="%17"/>
+  <alias path="item.shortDescription" value="%20"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/GenericDAO.java" value="%4"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/service/impl/UserService.java" value="%5"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/INewDAO.java" value="%0"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/controller/admin/api/NewAPI.java" value="%2"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/service/ICategoryService.java" value="%11"/>
+  <alias path="message" value="%26"/>
+  <alias path="/new-jdbc-12-month-2018/src/main/webapp/views/login.jsp" value="%27"/>
+  <alias path="item.name" value="%28"/>
+  <alias path="model.title" value="%29"/>
+  <alias path="item.title" value="%31"/>
+  <alias path="model.thumbnail" value="%32"/>
+  <alias path="editURL" value="%33"/>
+  <alias path="messageResponse" value="%34"/>
+  <alias path="item.id" value="%35"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/controller/web/HomeController.java" value="%10"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/controller/admin/NewController.java" value="%3"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/webapp/views/admin/new/edit.jsp" value="%19"/>
+  <alias path="model.categoryCode" value="%42"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/dao/impl/CategoryDAO.java" value="%8"/>
+  <alias
+   path="/new-jdbc-12-month-2018/src/main/java/com/laptrinhjavaweb/service/INewService.java" value="%15"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>
